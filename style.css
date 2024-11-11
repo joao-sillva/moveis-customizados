@@ -14,6 +14,10 @@ main {
   margin: 0 auto 72px;
 }
 
+main img {
+  margin-bottom: 72px;
+}
+
 main h1 {
   font-family: 'Inter', sans-serif;
   font-size: 49px;
@@ -41,4 +45,14 @@ main p+p {
 main span,
 footer a {
   color: #ff9900;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+footer a+a {
+  margin-left: 28px;
 }
