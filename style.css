@@ -6,6 +6,12 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 592px;
+  margin: 0 auto 72px;
 }
 
 main h1 {
@@ -26,6 +32,10 @@ main p {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
+}
+
+main p+p {
+  margin-top: 30px;
 }
 
 main span,
