@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -6,6 +12,10 @@ body {
 main {
   width: 592px;
   margin: 0 auto 72px;
+}
+
+main img {
+  margin-bottom: 72px;
 }
 
 main h1 {
@@ -35,4 +45,8 @@ main p+p {
 main span,
 footer a {
   color: #ff9900;
+}
+
+footer a+a {
+  margin-left: 28px;
 }
