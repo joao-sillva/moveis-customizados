@@ -37,6 +37,9 @@ main span {
 
 main p {
   color: #7d7987;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 main p+p {
@@ -48,6 +51,12 @@ footer a {
   color: #ff9900;
 }
 
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
 footer a+a {
   margin-left: 28px;
 }
@@ -57,4 +66,10 @@ footer a+a {
   height: 0;
   margin: 0 auto 8px;
   border: 1px solid #eceff2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
