@@ -78,3 +78,26 @@ footer a+a {
   bottom: 0;
   right: 0;
 }
+
+@media (width < 76em) {
+  main {
+    max-width: 30.8rem;
+    padding-inline: 2rem;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  main h1 {
+    font-size: 3rem;
+  }
+
+  #line {
+    width: 30rem;
+  }
+
+  #balls {
+    width: 5rem;
+  }
+}
